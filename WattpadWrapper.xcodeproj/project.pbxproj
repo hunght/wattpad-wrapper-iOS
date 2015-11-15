@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4932F0461BF8FCFD0070EFA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0451BF8FCFD0070EFA8 /* main.m */; };
+		4932F0491BF8FCFD0070EFA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0481BF8FCFD0070EFA8 /* AppDelegate.m */; };
+		4932F04F1BF8FCFD0070EFA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4932F04D1BF8FCFD0070EFA8 /* Main.storyboard */; };
+		4932F0511BF8FCFD0070EFA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4932F0501BF8FCFD0070EFA8 /* Assets.xcassets */; };
+		4932F0541BF8FCFD0070EFA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4932F0521BF8FCFD0070EFA8 /* LaunchScreen.storyboard */; };
+		4932F05F1BF8FCFD0070EFA8 /* WattpadWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F05E1BF8FCFD0070EFA8 /* WattpadWrapperTests.m */; };
+		4932F06A1BF8FCFD0070EFA8 /* WattpadWrapperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0691BF8FCFD0070EFA8 /* WattpadWrapperUITests.m */; };
+		4932F0981BF8FD250070EFA8 /* ExampleNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F07B1BF8FD240070EFA8 /* ExampleNavigationViewController.m */; };
+		4932F0991BF8FD250070EFA8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F07D1BF8FD240070EFA8 /* ProfileViewController.m */; };
+		4932F09A1BF8FD250070EFA8 /* StoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F07F1BF8FD240070EFA8 /* StoriesViewController.m */; };
+		4932F09B1BF8FD250070EFA8 /* StorySelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0811BF8FD240070EFA8 /* StorySelectionTableViewController.m */; };
+		4932F09C1BF8FD250070EFA8 /* ReadingListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0841BF8FD240070EFA8 /* ReadingListTableViewCell.m */; };
+		4932F09D1BF8FD250070EFA8 /* StoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0861BF8FD240070EFA8 /* StoryTableViewCell.m */; };
+		4932F09E1BF8FD250070EFA8 /* WattpadLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F08A1BF8FD240070EFA8 /* WattpadLoginViewController.m */; };
+		4932F09F1BF8FD250070EFA8 /* WattpadCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F08D1BF8FD240070EFA8 /* WattpadCategory.m */; };
+		4932F0A01BF8FD250070EFA8 /* WattpadGETError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F08F1BF8FD240070EFA8 /* WattpadGETError.m */; };
+		4932F0A11BF8FD250070EFA8 /* WattpadPOSTError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0911BF8FD240070EFA8 /* WattpadPOSTError.m */; };
+		4932F0A21BF8FD250070EFA8 /* WattpadReadingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0931BF8FD240070EFA8 /* WattpadReadingList.m */; };
+		4932F0A31BF8FD250070EFA8 /* WattpadStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0951BF8FD240070EFA8 /* WattpadStory.m */; };
+		4932F0A41BF8FD250070EFA8 /* Wattpad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0971BF8FD250070EFA8 /* Wattpad.m */; };
+		4932F0E31BF92FCA0070EFA8 /* WattpadCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0E21BF92FCA0070EFA8 /* WattpadCollection.m */; };
+		4932F0E61BF930300070EFA8 /* WattpadStoryStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932F0E51BF930300070EFA8 /* WattpadStoryStatus.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4932F05B1BF8FCFD0070EFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4932F0391BF8FCFD0070EFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4932F0401BF8FCFD0070EFA8;
+			remoteInfo = WattpadWrapper;
+		};
+		4932F0661BF8FCFD0070EFA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4932F0391BF8FCFD0070EFA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4932F0401BF8FCFD0070EFA8;
+			remoteInfo = WattpadWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4932F0411BF8FCFD0070EFA8 /* WattpadWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WattpadWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932F0451BF8FCFD0070EFA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4932F0471BF8FCFD0070EFA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4932F0481BF8FCFD0070EFA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4932F04E1BF8FCFD0070EFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4932F0501BF8FCFD0070EFA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4932F0531BF8FCFD0070EFA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4932F0551BF8FCFD0070EFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4932F05A1BF8FCFD0070EFA8 /* WattpadWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WattpadWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932F05E1BF8FCFD0070EFA8 /* WattpadWrapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WattpadWrapperTests.m; sourceTree = "<group>"; };
+		4932F0601BF8FCFD0070EFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4932F0651BF8FCFD0070EFA8 /* WattpadWrapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WattpadWrapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4932F0691BF8FCFD0070EFA8 /* WattpadWrapperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WattpadWrapperUITests.m; sourceTree = "<group>"; };
+		4932F06B1BF8FCFD0070EFA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4932F07A1BF8FD240070EFA8 /* ExampleNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleNavigationViewController.h; sourceTree = "<group>"; };
+		4932F07B1BF8FD240070EFA8 /* ExampleNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleNavigationViewController.m; sourceTree = "<group>"; };
+		4932F07C1BF8FD240070EFA8 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4932F07D1BF8FD240070EFA8 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4932F07E1BF8FD240070EFA8 /* StoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoriesViewController.h; sourceTree = "<group>"; };
+		4932F07F1BF8FD240070EFA8 /* StoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoriesViewController.m; sourceTree = "<group>"; };
+		4932F0801BF8FD240070EFA8 /* StorySelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorySelectionTableViewController.h; sourceTree = "<group>"; };
+		4932F0811BF8FD240070EFA8 /* StorySelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorySelectionTableViewController.m; sourceTree = "<group>"; };
+		4932F0831BF8FD240070EFA8 /* ReadingListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListTableViewCell.h; sourceTree = "<group>"; };
+		4932F0841BF8FD240070EFA8 /* ReadingListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingListTableViewCell.m; sourceTree = "<group>"; };
+		4932F0851BF8FD240070EFA8 /* StoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTableViewCell.h; sourceTree = "<group>"; };
+		4932F0861BF8FD240070EFA8 /* StoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTableViewCell.m; sourceTree = "<group>"; };
+		4932F0891BF8FD240070EFA8 /* WattpadLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadLoginViewController.h; sourceTree = "<group>"; };
+		4932F08A1BF8FD240070EFA8 /* WattpadLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadLoginViewController.m; sourceTree = "<group>"; };
+		4932F08C1BF8FD240070EFA8 /* WattpadCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadCategory.h; sourceTree = "<group>"; };
+		4932F08D1BF8FD240070EFA8 /* WattpadCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadCategory.m; sourceTree = "<group>"; };
+		4932F08E1BF8FD240070EFA8 /* WattpadGETError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadGETError.h; sourceTree = "<group>"; };
+		4932F08F1BF8FD240070EFA8 /* WattpadGETError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadGETError.m; sourceTree = "<group>"; };
+		4932F0901BF8FD240070EFA8 /* WattpadPOSTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadPOSTError.h; sourceTree = "<group>"; };
+		4932F0911BF8FD240070EFA8 /* WattpadPOSTError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadPOSTError.m; sourceTree = "<group>"; };
+		4932F0921BF8FD240070EFA8 /* WattpadReadingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadReadingList.h; sourceTree = "<group>"; };
+		4932F0931BF8FD240070EFA8 /* WattpadReadingList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadReadingList.m; sourceTree = "<group>"; };
+		4932F0941BF8FD240070EFA8 /* WattpadStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadStory.h; sourceTree = "<group>"; };
+		4932F0951BF8FD240070EFA8 /* WattpadStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadStory.m; sourceTree = "<group>"; };
+		4932F0961BF8FD240070EFA8 /* Wattpad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wattpad.h; sourceTree = "<group>"; };
+		4932F0971BF8FD250070EFA8 /* Wattpad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wattpad.m; sourceTree = "<group>"; };
+		4932F0E11BF92FCA0070EFA8 /* WattpadCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadCollection.h; sourceTree = "<group>"; };
+		4932F0E21BF92FCA0070EFA8 /* WattpadCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadCollection.m; sourceTree = "<group>"; };
+		4932F0E41BF930300070EFA8 /* WattpadStoryStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WattpadStoryStatus.h; sourceTree = "<group>"; };
+		4932F0E51BF930300070EFA8 /* WattpadStoryStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WattpadStoryStatus.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4932F03E1BF8FCFD0070EFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0571BF8FCFD0070EFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0621BF8FCFD0070EFA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4932F0381BF8FCFD0070EFA8 = {
+			isa = PBXGroup;
+			children = (
+				4932F0431BF8FCFD0070EFA8 /* WattpadWrapper */,
+				4932F05D1BF8FCFD0070EFA8 /* WattpadWrapperTests */,
+				4932F0681BF8FCFD0070EFA8 /* WattpadWrapperUITests */,
+				4932F0421BF8FCFD0070EFA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4932F0421BF8FCFD0070EFA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0411BF8FCFD0070EFA8 /* WattpadWrapper.app */,
+				4932F05A1BF8FCFD0070EFA8 /* WattpadWrapperTests.xctest */,
+				4932F0651BF8FCFD0070EFA8 /* WattpadWrapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4932F0431BF8FCFD0070EFA8 /* WattpadWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0871BF8FD240070EFA8 /* Wattpad */,
+				4932F0771BF8FD240070EFA8 /* Example */,
+				4932F0471BF8FCFD0070EFA8 /* AppDelegate.h */,
+				4932F0481BF8FCFD0070EFA8 /* AppDelegate.m */,
+				4932F04D1BF8FCFD0070EFA8 /* Main.storyboard */,
+				4932F0501BF8FCFD0070EFA8 /* Assets.xcassets */,
+				4932F0521BF8FCFD0070EFA8 /* LaunchScreen.storyboard */,
+				4932F0551BF8FCFD0070EFA8 /* Info.plist */,
+				4932F0441BF8FCFD0070EFA8 /* Supporting Files */,
+			);
+			path = WattpadWrapper;
+			sourceTree = "<group>";
+		};
+		4932F0441BF8FCFD0070EFA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0451BF8FCFD0070EFA8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4932F05D1BF8FCFD0070EFA8 /* WattpadWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				4932F05E1BF8FCFD0070EFA8 /* WattpadWrapperTests.m */,
+				4932F0601BF8FCFD0070EFA8 /* Info.plist */,
+			);
+			path = WattpadWrapperTests;
+			sourceTree = "<group>";
+		};
+		4932F0681BF8FCFD0070EFA8 /* WattpadWrapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0691BF8FCFD0070EFA8 /* WattpadWrapperUITests.m */,
+				4932F06B1BF8FCFD0070EFA8 /* Info.plist */,
+			);
+			path = WattpadWrapperUITests;
+			sourceTree = "<group>";
+		};
+		4932F0771BF8FD240070EFA8 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0791BF8FD240070EFA8 /* Controller */,
+				4932F0821BF8FD240070EFA8 /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		4932F0791BF8FD240070EFA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4932F07A1BF8FD240070EFA8 /* ExampleNavigationViewController.h */,
+				4932F07B1BF8FD240070EFA8 /* ExampleNavigationViewController.m */,
+				4932F07C1BF8FD240070EFA8 /* ProfileViewController.h */,
+				4932F07D1BF8FD240070EFA8 /* ProfileViewController.m */,
+				4932F07E1BF8FD240070EFA8 /* StoriesViewController.h */,
+				4932F07F1BF8FD240070EFA8 /* StoriesViewController.m */,
+				4932F0801BF8FD240070EFA8 /* StorySelectionTableViewController.h */,
+				4932F0811BF8FD240070EFA8 /* StorySelectionTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4932F0821BF8FD240070EFA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0831BF8FD240070EFA8 /* ReadingListTableViewCell.h */,
+				4932F0841BF8FD240070EFA8 /* ReadingListTableViewCell.m */,
+				4932F0851BF8FD240070EFA8 /* StoryTableViewCell.h */,
+				4932F0861BF8FD240070EFA8 /* StoryTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4932F0871BF8FD240070EFA8 /* Wattpad */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0881BF8FD240070EFA8 /* Controller */,
+				4932F08B1BF8FD240070EFA8 /* Model */,
+				4932F0961BF8FD240070EFA8 /* Wattpad.h */,
+				4932F0971BF8FD250070EFA8 /* Wattpad.m */,
+			);
+			path = Wattpad;
+			sourceTree = "<group>";
+		};
+		4932F0881BF8FD240070EFA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4932F0891BF8FD240070EFA8 /* WattpadLoginViewController.h */,
+				4932F08A1BF8FD240070EFA8 /* WattpadLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4932F08B1BF8FD240070EFA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4932F08C1BF8FD240070EFA8 /* WattpadCategory.h */,
+				4932F08D1BF8FD240070EFA8 /* WattpadCategory.m */,
+				4932F08E1BF8FD240070EFA8 /* WattpadGETError.h */,
+				4932F08F1BF8FD240070EFA8 /* WattpadGETError.m */,
+				4932F0901BF8FD240070EFA8 /* WattpadPOSTError.h */,
+				4932F0911BF8FD240070EFA8 /* WattpadPOSTError.m */,
+				4932F0921BF8FD240070EFA8 /* WattpadReadingList.h */,
+				4932F0931BF8FD240070EFA8 /* WattpadReadingList.m */,
+				4932F0941BF8FD240070EFA8 /* WattpadStory.h */,
+				4932F0951BF8FD240070EFA8 /* WattpadStory.m */,
+				4932F0E11BF92FCA0070EFA8 /* WattpadCollection.h */,
+				4932F0E21BF92FCA0070EFA8 /* WattpadCollection.m */,
+				4932F0E41BF930300070EFA8 /* WattpadStoryStatus.h */,
+				4932F0E51BF930300070EFA8 /* WattpadStoryStatus.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4932F0401BF8FCFD0070EFA8 /* WattpadWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932F06E1BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapper" */;
+			buildPhases = (
+				4932F03D1BF8FCFD0070EFA8 /* Sources */,
+				4932F03E1BF8FCFD0070EFA8 /* Frameworks */,
+				4932F03F1BF8FCFD0070EFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WattpadWrapper;
+			productName = WattpadWrapper;
+			productReference = 4932F0411BF8FCFD0070EFA8 /* WattpadWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4932F0591BF8FCFD0070EFA8 /* WattpadWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932F0711BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapperTests" */;
+			buildPhases = (
+				4932F0561BF8FCFD0070EFA8 /* Sources */,
+				4932F0571BF8FCFD0070EFA8 /* Frameworks */,
+				4932F0581BF8FCFD0070EFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4932F05C1BF8FCFD0070EFA8 /* PBXTargetDependency */,
+			);
+			name = WattpadWrapperTests;
+			productName = WattpadWrapperTests;
+			productReference = 4932F05A1BF8FCFD0070EFA8 /* WattpadWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4932F0641BF8FCFD0070EFA8 /* WattpadWrapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4932F0741BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapperUITests" */;
+			buildPhases = (
+				4932F0611BF8FCFD0070EFA8 /* Sources */,
+				4932F0621BF8FCFD0070EFA8 /* Frameworks */,
+				4932F0631BF8FCFD0070EFA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4932F0671BF8FCFD0070EFA8 /* PBXTargetDependency */,
+			);
+			name = WattpadWrapperUITests;
+			productName = WattpadWrapperUITests;
+			productReference = 4932F0651BF8FCFD0070EFA8 /* WattpadWrapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4932F0391BF8FCFD0070EFA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Andrew Lee";
+				TargetAttributes = {
+					4932F0401BF8FCFD0070EFA8 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4932F0591BF8FCFD0070EFA8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4932F0401BF8FCFD0070EFA8;
+					};
+					4932F0641BF8FCFD0070EFA8 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4932F0401BF8FCFD0070EFA8;
+					};
+				};
+			};
+			buildConfigurationList = 4932F03C1BF8FCFD0070EFA8 /* Build configuration list for PBXProject "WattpadWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4932F0381BF8FCFD0070EFA8;
+			productRefGroup = 4932F0421BF8FCFD0070EFA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4932F0401BF8FCFD0070EFA8 /* WattpadWrapper */,
+				4932F0591BF8FCFD0070EFA8 /* WattpadWrapperTests */,
+				4932F0641BF8FCFD0070EFA8 /* WattpadWrapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4932F03F1BF8FCFD0070EFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932F0541BF8FCFD0070EFA8 /* LaunchScreen.storyboard in Resources */,
+				4932F0511BF8FCFD0070EFA8 /* Assets.xcassets in Resources */,
+				4932F04F1BF8FCFD0070EFA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0581BF8FCFD0070EFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0631BF8FCFD0070EFA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4932F03D1BF8FCFD0070EFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932F0A11BF8FD250070EFA8 /* WattpadPOSTError.m in Sources */,
+				4932F09D1BF8FD250070EFA8 /* StoryTableViewCell.m in Sources */,
+				4932F09B1BF8FD250070EFA8 /* StorySelectionTableViewController.m in Sources */,
+				4932F0A21BF8FD250070EFA8 /* WattpadReadingList.m in Sources */,
+				4932F0981BF8FD250070EFA8 /* ExampleNavigationViewController.m in Sources */,
+				4932F09E1BF8FD250070EFA8 /* WattpadLoginViewController.m in Sources */,
+				4932F0E31BF92FCA0070EFA8 /* WattpadCollection.m in Sources */,
+				4932F0491BF8FCFD0070EFA8 /* AppDelegate.m in Sources */,
+				4932F0461BF8FCFD0070EFA8 /* main.m in Sources */,
+				4932F0A41BF8FD250070EFA8 /* Wattpad.m in Sources */,
+				4932F0A01BF8FD250070EFA8 /* WattpadGETError.m in Sources */,
+				4932F09F1BF8FD250070EFA8 /* WattpadCategory.m in Sources */,
+				4932F09A1BF8FD250070EFA8 /* StoriesViewController.m in Sources */,
+				4932F09C1BF8FD250070EFA8 /* ReadingListTableViewCell.m in Sources */,
+				4932F0E61BF930300070EFA8 /* WattpadStoryStatus.m in Sources */,
+				4932F0991BF8FD250070EFA8 /* ProfileViewController.m in Sources */,
+				4932F0A31BF8FD250070EFA8 /* WattpadStory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0561BF8FCFD0070EFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932F05F1BF8FCFD0070EFA8 /* WattpadWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4932F0611BF8FCFD0070EFA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4932F06A1BF8FCFD0070EFA8 /* WattpadWrapperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4932F05C1BF8FCFD0070EFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4932F0401BF8FCFD0070EFA8 /* WattpadWrapper */;
+			targetProxy = 4932F05B1BF8FCFD0070EFA8 /* PBXContainerItemProxy */;
+		};
+		4932F0671BF8FCFD0070EFA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4932F0401BF8FCFD0070EFA8 /* WattpadWrapper */;
+			targetProxy = 4932F0661BF8FCFD0070EFA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4932F04D1BF8FCFD0070EFA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4932F04E1BF8FCFD0070EFA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4932F0521BF8FCFD0070EFA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4932F0531BF8FCFD0070EFA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4932F06C1BF8FCFD0070EFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4932F06D1BF8FCFD0070EFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4932F06F1BF8FCFD0070EFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WattpadWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4932F0701BF8FCFD0070EFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WattpadWrapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4932F0721BF8FCFD0070EFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WattpadWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WattpadWrapper.app/WattpadWrapper";
+			};
+			name = Debug;
+		};
+		4932F0731BF8FCFD0070EFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WattpadWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WattpadWrapper.app/WattpadWrapper";
+			};
+			name = Release;
+		};
+		4932F0751BF8FCFD0070EFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WattpadWrapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WattpadWrapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4932F0761BF8FCFD0070EFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WattpadWrapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andrewtlee.WattpadWrapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WattpadWrapper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4932F03C1BF8FCFD0070EFA8 /* Build configuration list for PBXProject "WattpadWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932F06C1BF8FCFD0070EFA8 /* Debug */,
+				4932F06D1BF8FCFD0070EFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932F06E1BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932F06F1BF8FCFD0070EFA8 /* Debug */,
+				4932F0701BF8FCFD0070EFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932F0711BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932F0721BF8FCFD0070EFA8 /* Debug */,
+				4932F0731BF8FCFD0070EFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4932F0741BF8FCFD0070EFA8 /* Build configuration list for PBXNativeTarget "WattpadWrapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4932F0751BF8FCFD0070EFA8 /* Debug */,
+				4932F0761BF8FCFD0070EFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4932F0391BF8FCFD0070EFA8 /* Project object */;
+}
